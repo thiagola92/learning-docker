@@ -10,3 +10,6 @@
   * Deletando imagens e containers
 * [Capítulo 05](chapter05/README.md)
   * Criando container do Ubuntu interativo
+* [Capítulo 06](chapter06/README.md)
+  * Criando volume
+
