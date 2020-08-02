@@ -2,58 +2,58 @@
 Supondo que você deletou sua imagem e container igual no último capítulo, vamos baixar, criar ele e acessa-lo.  
 
 ```shell
-$ sudo docker run -it ubuntu bash
+$sudo docker run -it ubuntu bash
 ```
 
 ou
 
 ```shell
-$ sudo docker container run -it ubuntu bash
+$sudo docker container run -it ubuntu bash
 ```
 
 ou
 
 ```shell
-$ sudo docker pull ubuntu
-$ sudo docker create -i ubuntu
-$ sudo docker start container_name
-$ sudo docker exec -it container_name bash
+$sudo docker pull ubuntu
+$sudo docker create -i ubuntu
+$sudo docker start container_name
+$sudo docker exec -it container_name bash
 ```
 
 ou
 
 ```shell
-$ sudo docker image pull ubuntu
-$ sudo docker create -i ubuntu
-$ sudo docker start container_name
-$ sudo docker exec -it container_name bash
+$sudo docker image pull ubuntu
+$sudo docker create -i ubuntu
+$sudo docker start container_name
+$sudo docker exec -it container_name bash
 ```
 
 ou
 
 ```shell
-$ sudo docker image pull ubuntu
-$ sudo docker container create -i ubuntu
-$ sudo docker start container_name
-$ sudo docker exec -it container_name bash
+$sudo docker image pull ubuntu
+$sudo docker container create -i ubuntu
+$sudo docker start container_name
+$sudo docker exec -it container_name bash
 ```
 
 ou
 
 ```shell
-$ sudo docker image pull ubuntu
-$ sudo docker container create -i ubuntu
-$ sudo docker container start container_name
-$ sudo docker exec -it container_name bash
+$sudo docker image pull ubuntu
+$sudo docker container create -i ubuntu
+$sudo docker container start container_name
+$sudo docker exec -it container_name bash
 ```
 
 ou
 
 ```shell
-$ sudo docker image pull ubuntu
-$ sudo docker container create -i ubuntu
-$ sudo docker container start container_name
-$ sudo docker container exec -it container_name bash
+$sudo docker image pull ubuntu
+$sudo docker container create -i ubuntu
+$sudo docker container start container_name
+$sudo docker container exec -it container_name bash
 ```
 
 Todos estes iram fazer a mesma tarefa, baixar a imagem, criar o container interativo, inicializar ele e executar o bash dentro dele.  

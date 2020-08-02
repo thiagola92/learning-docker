@@ -1,46 +1,46 @@
 # Create container
 ```shell
-$ sudo docker run ubuntu
-$ sudo docker ps --all
+$sudo docker run ubuntu
+$sudo docker ps --all
 ```
 
 ou
 
 ```shell
-$ sudo docker container run ubuntu
-$ sudo docker ps --all
+$sudo docker container run ubuntu
+$sudo docker ps --all
 ```
 
 ou
 
 ```shell
-$ sudo docker pull ubuntu
-$ sudo docker create ubuntu
-$ sudo docker ps --all
+$sudo docker pull ubuntu
+$sudo docker create ubuntu
+$sudo docker ps --all
 ```
 
 ou
 
 ```shell
-$ sudo docker image pull ubuntu
-$ sudo docker create ubuntu
-$ sudo docker ps --all
+$sudo docker image pull ubuntu
+$sudo docker create ubuntu
+$sudo docker ps --all
 ```
 
 ou
 
 ```shell
-$ sudo docker image pull ubuntu
-$ sudo docker container create ubuntu
-$ sudo docker ps --all
+$sudo docker image pull ubuntu
+$sudo docker container create ubuntu
+$sudo docker ps --all
 ```
 
 ou
 
 ```shell
-$ sudo docker image pull ubuntu
-$ sudo docker container create ubuntu
-$ sudo docker container ls --all
+$sudo docker image pull ubuntu
+$sudo docker container create ubuntu
+$sudo docker container ls --all
 ```
 
 Todos estes iram fazer a mesma tarefa, criar um container com um nome aleatório e exibir os containers existentes.  

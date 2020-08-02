@@ -5,10 +5,10 @@
 Por padrão os comandos de docker requerem permissão do administrador, por isso utilizaremos sempre sudo, por exemplo:  
 
 ```shell
-$ sudo docker images ls
-$ sudo docker container ls
-$ sudo docker start xxx
-$ sudo docker stop xxx
+$sudo docker images ls
+$sudo docker container ls
+$sudo docker start xxx
+$sudo docker stop xxx
 ```
 
 # Image
@@ -21,8 +21,7 @@ Imagine como se fosse uma máquina em execução.
 
 ## Example
 Em programação uma classe pode gerar diversos objetos, cada um deles armazena seus próprios valores e podem ser deletados/alterados.  
-
-Da mesma maneira você pode criar diversos containers e mandar cada um deles fazer uma tarefa ou armazenar uma informação.  
+Da mesma maneira uma imagem pode criar diversos containers e mandar cada um deles fazer uma tarefa ou armazenar uma informação.  
 
 ## Why
 Por que utilizar containers?  
