@@ -1,5 +1,5 @@
 # Install
-`sudo snap install docker`  
+`sudo apt install docker`  
 
 # Running
 Por padrão os comandos de docker requerem permissão do administrador, por isso utilizaremos sempre sudo, por exemplo:  
